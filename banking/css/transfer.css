@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@200;300;400;500;600;700&display=swap');
+ * {
+	 box-sizing: border-box;
+	 font-family: 'Mulish', sans-serif;
+}
+ body {
+	 margin: 0;
+	 overflow-x: hidden;
+	 min-height: 100vh;
+	 background-image: url('https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 background-position: center center;
+	 align-items: center;
+	 justify-content: center;
+	 padding: 4rem;
+
+}
+ .container {
+	 padding: 3rem 2rem 10rem;
+	 max-width: 1300px;
+	 margin: auto;
+	 backdrop-filter: blur(12px);
+	 border: 2px solid rgba(255, 255, 255, 0.363);
+	 border-radius: 10px;
+	 color: rgba(255, 255, 255, 0.877);
+}
+.container .logo{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.container .main .table-responsive table .text-center{
+	color: #fff!important;
+}
+.container .main .table-responsive table tr td{
+	text-align: center;
+	padding: 0.75rem;
+	font-weight: 600;
+}
+ .container .main .text {
+	 background-color: transparent;
+	 border: none;
+	 outline: none;
+	 border: 2px solid rgba(255, 255, 255, 0.349);
+	 padding: 0.5rem 1.25rem;
+	 border-radius: 5px;
+	 color: rgb(32,32,32);
+     font-size: 14px;
+     font-weight: 500;
+	 cursor: pointer;
+	 margin-top: 2rem;
+	 margin-left: 1rem;
+	 transition: 0.2s ease all;
+	 text-decoration: none;
+}
+ .container .main .text:hover {
+	 border: 2px solid rgba(255, 255, 255, 0.349);
+	 color: #125e9f;
+	 background-color: rgba(255, 255, 255, 0.788);
+}
+.container .main .form-group .checkbox-inline{
+	font-size: 20px;
+	font-weight: 500;
+}
+.container .main .lable{
+	margin-top: 1.25rem;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+}
+
+.container .main select, .form-control{
+	 background-color: transparent;
+	 backdrop-filter: blur(12px);
+	 color: rgba(255, 255, 255, 0.877);
+}
+.container .main select, .form-control:after{
+		 background-color: transparent;
+	 backdrop-filter: blur(12px);
+	 color: rgba(255, 255, 255, 0.877);
+}
+ @media (max-width: 700px) {
+	 body {
+		 padding: 2rem;
+	}
+	 .container {
+		 max-height: 100%;
+	}
+	 .container .main {
+		 text-align: center;
+		 flex-direction: column;
+	}
+
+	 .container .main h1 {
+		 font-size: 2.75rem;
+	}
+}
+ 
